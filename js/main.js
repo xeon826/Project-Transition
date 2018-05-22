@@ -7,7 +7,8 @@ jQuery(document).ready(function($){
   $('button').on('click', function() {
 
   $('.block').each(function(i) {
-    $(this).stop().delay(20*i).animate({left: '-=5000px'});
+    $(this).stop().delay(20*i).animate({left: '-=5000px'})
+    $(this).promise().done(function(){console.log('helo')});
   })
   })
 
