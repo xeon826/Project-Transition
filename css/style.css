@@ -1,16 +1,24 @@
-[class*='mask-'] {
-  color:red;
-  background:red;
-  height:100%;
-}
-.col-sm-4 {
-  /* color:red;
-  background:red; */
+.container {
+  /* max-width:100vw !important; */
+  height: 540px;
+  max-width: 540px;
+  margin:auto;
+  background-image: url(../img/img-02.jpg);
+  background-position:center;
+  background-size: cover;
 
 }
-.container {
-  max-width:100vw !important;
+.block {
+  color:red;
+  width:10%;
+  height:10%;
+  box-shadow: inset 0 0 2px blue;
+  position:relative;
+  display:inline-block;
+  margin-bottom:-4px !important;
+  background:red;
+  transition:5s;
 }
-.row {
-  height:33vh;
+.fly-away {
+  margin-top:-100vh;
 }
